@@ -38,6 +38,16 @@ export const Sidebar = styled.div`
     color: #8892b0;
     margin-top: 0.5rem;
   }
+
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+  }
 `;
 
 export const MainContent = styled.div`
@@ -47,9 +57,12 @@ export const MainContent = styled.div`
   padding: 2rem 0;
   flex: 1;
 
+  /* Mobile Styles */
   @media (max-width: 768px) {
     margin-left: 0;
+    margin-right: 0;
     width: 100%;
+    padding: 1rem;
   }
 `;
 
@@ -142,6 +155,19 @@ export const ExperienceSection = styled.section`
     .details {
       flex: 1;
     }
+
+    /* Responsive styles for smaller screens */
+    @media (max-width: 768px) {
+      flex-direction: column;
+
+      .timeline {
+        text-align: left;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 1rem;
+      }
+    }
+  }
 
     h3 {
       font-size: 1.5rem;
