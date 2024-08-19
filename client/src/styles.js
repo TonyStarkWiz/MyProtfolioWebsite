@@ -4,6 +4,12 @@ export const Container = styled.div`
   display: flex;
   padding-left: 40px; /* Add padding here */
   padding-right: 40px; /* Add padding here */
+
+  /* Mobile Styles for iPhone 13 */
+  @media (max-width: 390px) {
+    padding-left: 20px; /* Adjust the padding for smaller screens */
+    padding-right: 20px; /* Adjust the padding for smaller screens */
+  }
 `;
 
 export const Sidebar = styled.div`
@@ -48,6 +54,20 @@ export const Sidebar = styled.div`
     margin-right: 0;
     padding: 10px;
   }
+
+  /* Mobile Styles for iPhone 13 */
+  @media (max-width: 390px) {
+    padding: 5px; /* Adjust the padding for smaller screens */
+    h1 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    h2 {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+    p {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+  }
 `;
 
 export const MainContent = styled.div`
@@ -63,6 +83,11 @@ export const MainContent = styled.div`
     margin-right: 0;
     width: 100%;
     padding: 1rem;
+  }
+
+  /* Mobile Styles for iPhone 13 */
+  @media (max-width: 390px) {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
   }
 `;
 
@@ -91,6 +116,12 @@ export const SidebarLink = styled.a`
       background-color: #64ffda;
     }
   }
+
+  /* Mobile Styles for iPhone 13 */
+  @media (max-width: 390px) {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    padding-left: 0.3rem; /* Adjust padding for smaller screens */
+  }
 `;
 
 export const SocialLinks = styled.div`
@@ -103,6 +134,14 @@ export const SocialLinks = styled.div`
     font-size: 1.5rem;
     &:hover {
       color: #64ffda;
+    }
+  }
+
+  /* Mobile Styles for iPhone 13 */
+  @media (max-width: 390px) {
+    font-size: 1rem; /* Adjust icon size for smaller screens */
+    a {
+      margin-right: 0.5rem; /* Adjust margin for smaller screens */
     }
   }
 `;
@@ -123,6 +162,17 @@ export const Section = styled.section`
     font-size: 1.2rem;
     line-height: 1.5;
     color: #8892b0;
+  }
+
+  /* Mobile Styles for iPhone 13 */
+  @media (max-width: 390px) {
+    padding: 20px 0; /* Adjust padding for smaller screens */
+    h2 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    p {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
   }
 `;
 
@@ -167,6 +217,27 @@ export const ExperienceSection = styled.section`
         margin-bottom: 1rem;
       }
     }
+
+    /* Mobile Styles for iPhone 13 */
+    @media (max-width: 390px) {
+      margin-bottom: 2rem; /* Adjust margin for smaller screens */
+
+      .timeline {
+        font-size: 0.75rem; /* Adjust font size for smaller screens */
+      }
+
+      h3 {
+        font-size: 1.3rem; /* Adjust font size for smaller screens */
+      }
+
+      span {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+      }
+
+      p {
+        font-size: 0.875rem; /* Adjust font size for smaller screens */
+      }
+    }
   }
 
     h3 {
@@ -206,6 +277,16 @@ export const ExperienceSection = styled.section`
         }
       }
     }
+
+    /* Mobile Styles for iPhone 13 */
+    @media (max-width: 390px) {
+      gap: 0.25rem; /* Adjust gap for smaller screens */
+
+      span {
+        font-size: 0.75rem; /* Adjust font size for smaller screens */
+        padding: 0.2rem 0.5rem; /* Adjust padding for smaller screens */
+      }
+    }
   }
 `;
 
@@ -219,5 +300,11 @@ export const SkillTag = styled.span`
 
   &:hover {
     background-color: rgba(100, 255, 218, 0.25);
+  }
+
+  /* Mobile Styles for iPhone 13 */
+  @media (max-width: 390px) {
+    font-size: 0.75rem; /* Adjust font size for smaller screens */
+    padding: 0.2rem 0.5rem; /* Adjust padding for smaller screens */
   }
 `;
