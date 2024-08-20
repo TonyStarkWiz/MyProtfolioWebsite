@@ -2,9 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row; /* Flex direction row on desktop */
+  flex-direction: row; /* Flex direction as row by default for desktop */
   padding-left: 40px;
   padding-right: 40px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the element's width */
 
   /* Mobile Styles */
   @media (max-width: 768px) {
@@ -26,28 +28,29 @@ export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 1; /* Ensure sidebar stays on top */
 
   /* Mobile Styles */
   @media (max-width: 768px) {
+    position: relative;
     width: 100%;
     height: auto;
-    position: relative;
     margin-bottom: 20px;
-    padding: 10px;
   }
 `;
 
 export const MainContent = styled.div`
-  margin-left: 320px;
+  margin-left: 320px; /* Adjust based on Sidebar's width */
   padding: 2rem 0;
   flex: 1;
-  width: calc(100% - 320px);
+  width: calc(100% - 320px); /* Adjust content width */
+  box-sizing: border-box; /* Ensure padding is included in the element's width */
 
   /* Mobile Styles */
   @media (max-width: 768px) {
     margin-left: 0;
     width: 100%;
+    padding: 1rem 0;
   }
 `;
 
