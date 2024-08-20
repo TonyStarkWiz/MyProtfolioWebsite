@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// Container holds the Sidebar and MainContent
 export const Container = styled.div`
   display: flex;
   padding-left: 40px;
@@ -7,14 +8,14 @@ export const Container = styled.div`
 
   /* Mobile Styles */
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column; /* Stack elements vertically on mobile */
     padding-left: 10px;
     padding-right: 10px;
   }
 `;
 
+// Sidebar styling
 export const Sidebar = styled.div`
-  flex-shrink: 0; /* Prevent shrinking */
   width: 300px;
   height: 100vh;
   position: fixed;
@@ -33,13 +34,15 @@ export const Sidebar = styled.div`
     width: 100%;
     height: auto;
     margin-bottom: 20px; /* Space between sidebar and content */
+    padding: 10px;
   }
 `;
 
+// Main content area
 export const MainContent = styled.div`
   margin-left: 320px; /* Offset by sidebar width */
-  flex: 1;
   padding: 2rem 0;
+  flex: 1;
 
   /* Mobile Styles */
   @media (max-width: 768px) {
@@ -49,6 +52,7 @@ export const MainContent = styled.div`
   }
 `;
 
+// Links in the Sidebar
 export const SidebarLink = styled.a`
   display: flex;
   align-items: center;
@@ -82,6 +86,7 @@ export const SidebarLink = styled.a`
   }
 `;
 
+// Social links in the Sidebar
 export const SocialLinks = styled.div`
   display: flex;
   margin-top: 3rem;
@@ -106,6 +111,7 @@ export const SocialLinks = styled.div`
   }
 `;
 
+// Section styling
 export const Section = styled.section`
   width: 100%;
   padding: 50px 0;
@@ -136,6 +142,7 @@ export const Section = styled.section`
   }
 `;
 
+/* Experience section */
 export const ExperienceSection = styled.section`
   margin-top: 4rem;
 
@@ -223,6 +230,7 @@ export const ExperienceSection = styled.section`
   }
 `;
 
+// Skill tag styling
 export const SkillTag = styled.span`
   background-color: rgba(100, 255, 218, 0.1);
   color: #64ffda;
