@@ -2,17 +2,16 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row; /* Default to row direction */
+  flex-direction: row; /* Default layout direction */
   padding-left: 40px;
   padding-right: 40px;
-  width: 100%; /* Ensure full width */
+  width: 100%;
 
   /* Mobile Styles */
   @media (max-width: 768px) {
     flex-direction: column; /* Stack elements vertically on mobile */
     padding-left: 10px;
     padding-right: 10px;
-    width: 100%; /* Ensure full width */
   }
 `;
 
@@ -28,6 +27,7 @@ export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1; /* Ensure sidebar stays on top */
 
   /* Mobile Styles */
   @media (max-width: 768px) {
@@ -35,15 +35,16 @@ export const Sidebar = styled.div`
     width: 100%;
     height: auto;
     padding: 10px;
-    margin-bottom: 20px; /* Space between sidebar and main content */
+    margin-bottom: 20px;
   }
 `;
 
 export const MainContent = styled.div`
-  margin-left: 320px; /* Offset by sidebar width */
+  margin-left: 320px; /* Adjust based on Sidebar's width */
   padding: 2rem 0;
   flex: 1;
   width: calc(100% - 320px); /* Adjust content width */
+  z-index: 0; /* Ensure content is behind the sidebar */
 
   /* Mobile Styles */
   @media (max-width: 768px) {
