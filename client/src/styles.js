@@ -1,20 +1,21 @@
 import styled from 'styled-components';
 
-// Container holds the Sidebar and MainContent
 export const Container = styled.div`
   display: flex;
+  flex-direction: row; /* Default to row direction */
   padding-left: 40px;
   padding-right: 40px;
+  width: 100%; /* Ensure full width */
 
   /* Mobile Styles */
   @media (max-width: 768px) {
     flex-direction: column; /* Stack elements vertically on mobile */
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%; /* Ensure full width */
   }
 `;
 
-// Sidebar styling
 export const Sidebar = styled.div`
   width: 300px;
   height: 100vh;
@@ -30,19 +31,19 @@ export const Sidebar = styled.div`
 
   /* Mobile Styles */
   @media (max-width: 768px) {
-    position: relative;
+    position: static; /* Change to static position */
     width: 100%;
     height: auto;
-    margin-bottom: 20px; /* Space between sidebar and content */
     padding: 10px;
+    margin-bottom: 20px; /* Space between sidebar and main content */
   }
 `;
 
-// Main content area
 export const MainContent = styled.div`
   margin-left: 320px; /* Offset by sidebar width */
   padding: 2rem 0;
   flex: 1;
+  width: calc(100% - 320px); /* Adjust content width */
 
   /* Mobile Styles */
   @media (max-width: 768px) {
@@ -52,7 +53,6 @@ export const MainContent = styled.div`
   }
 `;
 
-// Links in the Sidebar
 export const SidebarLink = styled.a`
   display: flex;
   align-items: center;
@@ -86,7 +86,6 @@ export const SidebarLink = styled.a`
   }
 `;
 
-// Social links in the Sidebar
 export const SocialLinks = styled.div`
   display: flex;
   margin-top: 3rem;
@@ -111,7 +110,6 @@ export const SocialLinks = styled.div`
   }
 `;
 
-// Section styling
 export const Section = styled.section`
   width: 100%;
   padding: 50px 0;
@@ -142,7 +140,6 @@ export const Section = styled.section`
   }
 `;
 
-/* Experience section */
 export const ExperienceSection = styled.section`
   margin-top: 4rem;
 
@@ -230,7 +227,6 @@ export const ExperienceSection = styled.section`
   }
 `;
 
-// Skill tag styling
 export const SkillTag = styled.span`
   background-color: rgba(100, 255, 218, 0.1);
   color: #64ffda;
