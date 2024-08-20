@@ -2,21 +2,21 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  padding-left: 40px; /* Add padding here */
-  padding-right: 40px; /* Add padding here */
+  padding-left: 40px;
+  padding-right: 40px;
 
-  /* Mobile Styles for iPhone 13 */
-  @media (max-width: 390px) {
-    padding-left: 20px; /* Adjust the padding for smaller screens */
-    padding-right: 20px; /* Adjust the padding for smaller screens */
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 `;
 
 export const Sidebar = styled.div`
-  margin-left: 15%;
+  flex-shrink: 0; /* Prevent shrinking */
   width: 300px;
-  margin-right: 20px; /* Space between sidebar and content */
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -25,69 +25,27 @@ export const Sidebar = styled.div`
   padding: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ensures space between top content and MERNIcons at the bottom */
-
-  h1 {
-    font-size: 3rem;
-    color: #ccd6f6;
-    margin-bottom: 20px;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    color: #8892b0;
-    margin-bottom: 20px;
-  }
-
-  p {
-    font-size: 1rem;
-    color: #8892b0;
-    margin-top: 0.5rem;
-  }
+  justify-content: space-between;
 
   /* Mobile Styles */
   @media (max-width: 768px) {
+    position: relative;
     width: 100%;
     height: auto;
-    position: relative;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 10px;
-  }
-
-  /* Mobile Styles for iPhone 13 */
-  @media (max-width: 390px) {
-    padding: 5px; /* Adjust the padding for smaller screens */
-    h1 {
-      font-size: 2rem; /* Adjust font size for smaller screens */
-    }
-    h2 {
-      font-size: 1.2rem; /* Adjust font size for smaller screens */
-    }
-    p {
-      font-size: 0.9rem; /* Adjust font size for smaller screens */
-    }
+    margin-bottom: 20px; /* Space between sidebar and content */
   }
 `;
 
 export const MainContent = styled.div`
-  margin-left: 35%;
-  margin-right: 15%;
-  width: 60%;
-  padding: 2rem 0;
+  margin-left: 320px; /* Offset by sidebar width */
   flex: 1;
+  padding: 2rem 0;
 
   /* Mobile Styles */
   @media (max-width: 768px) {
     margin-left: 0;
-    margin-right: 0;
     width: 100%;
-    padding: 1rem;
-  }
-
-  /* Mobile Styles for iPhone 13 */
-  @media (max-width: 390px) {
-    padding: 0.5rem; /* Adjust padding for smaller screens */
+    padding: 1rem 0;
   }
 `;
 
@@ -103,9 +61,9 @@ export const SidebarLink = styled.a`
   &::before {
     content: "";
     display: inline-block;
-    width: 50px; /* Adjust the length of the line */
+    width: 50px;
     height: 1px;
-    background-color: #ccd6f6; /* Line color */
+    background-color: #ccd6f6;
     margin-right: 10px;
     opacity: 0.5;
   }
@@ -117,10 +75,10 @@ export const SidebarLink = styled.a`
     }
   }
 
-  /* Mobile Styles for iPhone 13 */
-  @media (max-width: 390px) {
-    font-size: 1rem; /* Adjust font size for smaller screens */
-    padding-left: 0.3rem; /* Adjust padding for smaller screens */
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    padding-left: 0.3rem;
   }
 `;
 
@@ -137,11 +95,13 @@ export const SocialLinks = styled.div`
     }
   }
 
-  /* Mobile Styles for iPhone 13 */
-  @media (max-width: 390px) {
-    font-size: 1rem; /* Adjust icon size for smaller screens */
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
     a {
-      margin-right: 0.5rem; /* Adjust margin for smaller screens */
+      margin-right: 0.5rem;
     }
   }
 `;
@@ -164,21 +124,18 @@ export const Section = styled.section`
     color: #8892b0;
   }
 
-  /* Mobile Styles for iPhone 13 */
-  @media (max-width: 390px) {
-    padding: 20px 0; /* Adjust padding for smaller screens */
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    padding: 20px 0;
     h2 {
-      font-size: 2rem; /* Adjust font size for smaller screens */
+      font-size: 2rem;
     }
     p {
-      font-size: 1rem; /* Adjust font size for smaller screens */
+      font-size: 1rem;
     }
   }
 `;
 
-/* Updated Styles for Experience Section */
-
-/* Updated styles for Experience Section */
 export const ExperienceSection = styled.section`
   margin-top: 4rem;
 
@@ -190,15 +147,15 @@ export const ExperienceSection = styled.section`
 
   .experience-item {
     display: flex;
-    align-items: flex-start; /* Aligns items at the top */
+    align-items: flex-start;
     margin-bottom: 3rem;
 
     .timeline {
-      width: 150px; /* Adjust width as needed */
+      width: 150px;
       color: #8892b0;
       font-size: 0.875rem;
       text-align: right;
-      padding-right: 1rem; /* Adds space between date and job details */
+      padding-right: 1rem;
       padding-top: 0.4rem;
     }
 
@@ -206,7 +163,6 @@ export const ExperienceSection = styled.section`
       flex: 1;
     }
 
-    /* Responsive styles for smaller screens */
     @media (max-width: 768px) {
       flex-direction: column;
 
@@ -217,74 +173,51 @@ export const ExperienceSection = styled.section`
         margin-bottom: 1rem;
       }
     }
-
-    /* Mobile Styles for iPhone 13 */
-    @media (max-width: 390px) {
-      margin-bottom: 2rem; /* Adjust margin for smaller screens */
-
-      .timeline {
-        font-size: 0.75rem; /* Adjust font size for smaller screens */
-      }
-
-      h3 {
-        font-size: 1.3rem; /* Adjust font size for smaller screens */
-      }
-
-      span {
-        font-size: 0.875rem; /* Adjust font size for smaller screens */
-      }
-
-      p {
-        font-size: 0.875rem; /* Adjust font size for smaller screens */
-      }
-    }
   }
 
-    h3 {
-      font-size: 1.5rem;
-      color: #ccd6f6;
-    }
-      
+  h3 {
+    font-size: 1.5rem;
+    color: #ccd6f6;
+  }
+
+  span {
+    display: block;
+    font-size: 1rem;
+    color: #8892b0;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #a8b2d1;
+    margin-bottom: 1rem;
+  }
+
+  .experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
     span {
-      display: block;
-      font-size: 1rem;
-      color: #8892b0;
-      margin-bottom: 0.5rem;
-    }
+      background-color: rgba(100, 255, 218, 0.1);
+      color: #64ffda;
+      font-size: 0.875rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
 
-    p {
-      font-size: 1rem;
-      color: #a8b2d1;
-      margin-bottom: 1rem;
-    }
-
-    .experience-skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-
-      span {
-        background-color: rgba(100, 255, 218, 0.1);
-        color: #64ffda;
-        font-size: 0.875rem;
-        padding: 0.25rem 0.75rem;
-        border-radius: 5px;
-        transition: background-color 0.3s ease, box-shadow 0.3s ease;
-
-        &:hover {
-          background-color: rgba(100, 255, 218, 0.25);
-          box-shadow: 0 4px 8px rgba(100, 255, 218, 0.3);
-        }
+      &:hover {
+        background-color: rgba(100, 255, 218, 0.25);
+        box-shadow: 0 4px 8px rgba(100, 255, 218, 0.3);
       }
     }
 
-    /* Mobile Styles for iPhone 13 */
-    @media (max-width: 390px) {
-      gap: 0.25rem; /* Adjust gap for smaller screens */
-
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+      gap: 0.25rem;
       span {
-        font-size: 0.75rem; /* Adjust font size for smaller screens */
-        padding: 0.2rem 0.5rem; /* Adjust padding for smaller screens */
+        font-size: 0.75rem;
+        padding: 0.2rem 0.5rem;
       }
     }
   }
@@ -302,9 +235,9 @@ export const SkillTag = styled.span`
     background-color: rgba(100, 255, 218, 0.25);
   }
 
-  /* Mobile Styles for iPhone 13 */
-  @media (max-width: 390px) {
-    font-size: 0.75rem; /* Adjust font size for smaller screens */
-    padding: 0.2rem 0.5rem; /* Adjust padding for smaller screens */
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
   }
 `;
