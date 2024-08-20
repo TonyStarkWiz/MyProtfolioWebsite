@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row; /* Flex direction as row by default for desktop */
+  flex-direction: column; /* Flex direction as row by default for desktop */
   padding-left: 40px;
   padding-right: 40px;
   width: 100%;
@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   /* Mobile Styles */
   @media (max-width: 768px) {
-    flex-direction: column; /* Stack elements vertically on mobile */
+    flex-direction: row; /* Stack elements vertically on mobile */
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -169,7 +169,7 @@ export const ExperienceSection = styled.section`
     }
 
     @media (max-width: 768px) {
-      flex-direction: column;
+      flex-direction: row;
 
       .timeline {
         text-align: left;
