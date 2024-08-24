@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Or whichever branch you want to trigger the deployment
+      - master # Or whichever branch you want to trigger the deployment from
 
 jobs:
   deploy:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Install dependencies
       run: npm install
