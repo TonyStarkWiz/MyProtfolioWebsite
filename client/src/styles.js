@@ -12,6 +12,8 @@ const breakpoints = {
   desktopL: 'max-width: 1400px',
 };
 
+// No HeaderWrapper needed since we're removing the header entirely on mobile
+
 export const Container = styled.div`
   display: flex;
   padding-left: 40px;
@@ -21,6 +23,7 @@ export const Container = styled.div`
     flex-direction: column; /* Stack elements vertically on mobile */
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px; /* Ensure proper spacing */
   }
 `;
 
@@ -90,7 +93,7 @@ export const MainContent = styled.div`
     margin-left: 0;
     margin-right: 0;
     width: 100%;
-    padding-top: 5rem; /* To push content below the header on mobile */
+    padding-top: 2rem; /* Adjust content padding on mobile */
   }
 `;
 
