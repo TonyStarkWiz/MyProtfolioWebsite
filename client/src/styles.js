@@ -1,21 +1,21 @@
 import styled from 'styled-components';
 
 const breakpoints = {
-  mobileS: `max-width: 330px`,
-  mobileM: `max-width: 400px`,
-  mobileL: `max-width: 480px`,
-  tabletS: `max-width: 600px`,
-  tabletL: `max-width: 768px`,
-  desktopXS: `max-width: 900px`,
-  desktopS: `max-width: 1080px`,
-  desktopM: `max-width: 1200px`,
-  desktopL: `max-width: 1400px`,
+  mobileS: 'max-width: 330px',
+  mobileM: 'max-width: 400px',
+  mobileL: 'max-width: 480px',
+  tabletS: 'max-width: 600px',
+  tabletL: 'max-width: 768px',
+  desktopXS: 'max-width: 900px',
+  desktopS: 'max-width: 1080px',
+  desktopM: 'max-width: 1200px',
+  desktopL: 'max-width: 1400px',
 };
 
 export const Container = styled.div`
   display: flex;
-  padding-left: 40px; /* Add padding here */
-  padding-right: 40px; /* Add padding here */
+  padding-left: 40px;
+  padding-right: 40px;
 
   @media (${breakpoints.tabletL}) {
     flex-direction: column; /* Stack elements vertically on mobile */
@@ -27,8 +27,8 @@ export const Container = styled.div`
 export const Sidebar = styled.div`
   margin-left: 15%;
   width: 300px;
-  margin-right: 20px; /* Space between sidebar and content */
-  height: 100vh; /* Full viewport height */
+  margin-right: 20px;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -37,7 +37,7 @@ export const Sidebar = styled.div`
   padding: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ensures space between top content and MERNIcons at the bottom */
+  justify-content: space-between;
 
   h1 {
     font-size: 3rem;
@@ -45,7 +45,7 @@ export const Sidebar = styled.div`
     margin-bottom: 20px;
 
     @media (${breakpoints.mobileM}) {
-      font-size: 2.5rem; /* Adjust font size for smaller screens */
+      font-size: 2.5rem;
     }
   }
 
@@ -55,7 +55,7 @@ export const Sidebar = styled.div`
     margin-bottom: 20px;
 
     @media (${breakpoints.mobileM}) {
-      font-size: 1.2rem; /* Adjust font size for smaller screens */
+      font-size: 1.2rem;
     }
   }
 
@@ -65,7 +65,7 @@ export const Sidebar = styled.div`
     margin-top: 0.5rem;
 
     @media (${breakpoints.mobileM}) {
-      font-size: 0.875rem; /* Adjust font size for smaller screens */
+      font-size: 0.875rem;
     }
   }
 
@@ -90,6 +90,7 @@ export const MainContent = styled.div`
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+    padding-top: 5rem; /* To push content below the header on mobile */
   }
 `;
 
@@ -105,9 +106,9 @@ export const SidebarLink = styled.a`
   &::before {
     content: "";
     display: inline-block;
-    width: 50px; /* Adjust the length of the line */
+    width: 50px;
     height: 1px;
-    background-color: #ccd6f6; /* Line color */
+    background-color: #ccd6f6;
     margin-right: 10px;
     opacity: 0.5;
   }
@@ -120,8 +121,8 @@ export const SidebarLink = styled.a`
   }
 
   @media (${breakpoints.mobileL}) {
-    font-size: 1rem; /* Adjust font size for smaller screens */
-    padding-left: 0.3rem; /* Adjust padding for smaller screens */
+    font-size: 1rem;
+    padding-left: 0.3rem;
   }
 `;
 
@@ -139,8 +140,8 @@ export const SocialLinks = styled.div`
     }
 
     @media (${breakpoints.mobileM}) {
-      font-size: 1.2rem; /* Adjust icon size for smaller screens */
-      margin-right: 0.5rem; /* Adjust margin for smaller screens */
+      font-size: 1.2rem;
+      margin-right: 0.5rem;
     }
   }
 `;
@@ -157,7 +158,7 @@ export const Section = styled.section`
     color: #ccd6f6;
 
     @media (${breakpoints.tabletL}) {
-      font-size: 2rem; /* Adjust font size for smaller screens */
+      font-size: 2rem;
     }
   }
 
@@ -167,7 +168,7 @@ export const Section = styled.section`
     color: #8892b0;
 
     @media (${breakpoints.tabletL}) {
-      font-size: 1rem; /* Adjust font size for smaller screens */
+      font-size: 1rem;
     }
   }
 `;
@@ -181,21 +182,21 @@ export const ExperienceSection = styled.section`
     margin-bottom: 2rem;
 
     @media (${breakpoints.tabletL}) {
-      font-size: 1.8rem; /* Adjust font size for smaller screens */
+      font-size: 1.8rem;
     }
   }
 
   .experience-item {
     display: flex;
-    align-items: flex-start; /* Aligns items at the top */
+    align-items: flex-start;
     margin-bottom: 3rem;
 
     .timeline {
-      width: 150px; /* Adjust width as needed */
+      width: 150px;
       color: #8892b0;
       font-size: 0.875rem;
       text-align: right;
-      padding-right: 1rem; /* Adds space between date and job details */
+      padding-right: 1rem;
       padding-top: 0.4rem;
 
       @media (${breakpoints.tabletL}) {
@@ -220,7 +221,7 @@ export const ExperienceSection = styled.section`
     color: #ccd6f6;
 
     @media (${breakpoints.tabletL}) {
-      font-size: 1.3rem; /* Adjust font size for smaller screens */
+      font-size: 1.3rem;
     }
   }
 
@@ -231,7 +232,7 @@ export const ExperienceSection = styled.section`
     margin-bottom: 0.5rem;
 
     @media (${breakpoints.tabletL}) {
-      font-size: 0.9rem; /* Adjust font size for smaller screens */
+      font-size: 0.9rem;
     }
   }
 
@@ -241,7 +242,7 @@ export const ExperienceSection = styled.section`
     margin-bottom: 1rem;
 
     @media (${breakpoints.tabletL}) {
-      font-size: 0.9rem; /* Adjust font size for smaller screens */
+      font-size: 0.9rem;
     }
   }
 
@@ -264,8 +265,8 @@ export const ExperienceSection = styled.section`
       }
 
       @media (${breakpoints.tabletL}) {
-        font-size: 0.75rem; /* Adjust font size for smaller screens */
-        padding: 0.2rem 0.5rem; /* Adjust padding for smaller screens */
+        font-size: 0.75rem;
+        padding: 0.2rem 0.5rem;
       }
     }
   }

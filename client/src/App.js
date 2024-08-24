@@ -5,6 +5,23 @@ import About from './components/About';
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaCodepen } from 'react-icons/fa';
 import MERNIcons from './components/MERNIcons';
 
+// Define a separate header component for mobile
+const Header = () => (
+  <div style={{ background: '#0a192f', padding: '10px 15px', color: '#ccd6f6', position: 'fixed', width: '100%', top: 0, zIndex: 1000 }}>
+    <h1 style={{ fontSize: '1.5rem', margin: 0 }}>Anthony Espinoza</h1>
+    <div style={{ marginTop: '10px', display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ fontSize: '1rem' }}>Senior Software Engineer</div>
+      <div>
+        <a href="https://github.com/yourgithubprofile" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="https://www.instagram.com/yourinstagramprofile/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="https://twitter.com/yourtwitterprofile" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+        <a href="https://codepen.io/yourcodepenprofile" target="_blank" rel="noopener noreferrer"><FaCodepen /></a>
+      </div>
+    </div>
+  </div>
+);
+
 const Experience = () => (
   <ExperienceSection>
     {/* Senior Android Developer | Self-Employed */}
@@ -181,6 +198,8 @@ const NewProjects = () => (
 const App = () => (
   <div>
     <Container>
+      {/* This header will only be visible on mobile */}
+      <Header />
       <Sidebar>
         <div>
           <h1>Anthony Espinoza</h1>
