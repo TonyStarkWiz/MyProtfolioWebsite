@@ -3,13 +3,18 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master # Or whichever branch you want to trigger the deployment from
+      - master  # Or whichever branch you want to trigger the deployment from
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18' # Specify Node.js version 18
+
     - name: Checkout code
       uses: actions/checkout@v3
 
