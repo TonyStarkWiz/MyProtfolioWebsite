@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3  # Updated action
       with:
-        node-version: '20'  # Using Node.js version 20 as per GitHub's latest recommendation
+        node-version: '18'  # Explicitly set to Node.js 18
 
     - name: Install dependencies
       run: npm install
