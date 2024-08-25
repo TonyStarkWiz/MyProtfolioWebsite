@@ -2,8 +2,21 @@ import React from 'react';
 import { Container, Sidebar, MainContent, Section, SidebarLink, SocialLinks, ExperienceSection } from './styles';
 
 import About from './components/About';
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaCodepen } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaRegLaughSquint, FaInstagram, FaTwitter, FaCodepen } from 'react-icons/fa';
+// import { ReactComponent as ReplitLogo } from './assets/New_Replit_Logo.svg.svg'; // Use your SVG here
 import MERNIcons from './components/MERNIcons';
+
+// // Create a styled component for the Replit logo
+// const StyledReplitLogo = styled(ReplitLogo)`
+//   width: 1.5rem;
+//   height: 1.5rem;
+//   color: #8892b0;
+//   transition: color 0.3s ease;
+
+//   &:hover {
+//     color: #64ffda;
+//   }
+// `;
 
 const Experience = () => (
   <ExperienceSection>
@@ -190,11 +203,14 @@ const App = () => (
           <SidebarLink href="#experience">Professional Experience</SidebarLink>
           <SidebarLink href="#projects">Projects</SidebarLink>
           <SocialLinks>
-            <a href="https://github.com/yourgithubprofile" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            <a href="https://www.instagram.com/yourinstagramprofile/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://twitter.com/yourtwitterprofile" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://codepen.io/yourcodepenprofile" target="_blank" rel="noopener noreferrer"><FaCodepen /></a>
+            <a href="https://github.com/TonyStarkWiz" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/anthony-espinoza-engineer/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+            {/* <a href="https://replit.com/@AnthonyX3" target="_blank" rel="noopener noreferrer">
+              <StyledReplitLogo />
+            </a> */}
+            <a href="https://www.instagram.com/anthonyespinosa8/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://twitter.com/EarthsTonyStark" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            <a href="https://codepen.io/tony_starkucf" target="_blank" rel="noopener noreferrer"><FaCodepen /></a>
           </SocialLinks>
         </div>
         <MERNIcons />
