@@ -1,7 +1,7 @@
 {
   "name": "my-protfolio-website",
   "version": "1.0.0",
-  "homepage": "https://tonystarkwiz.github.io/MyProtfolioWebsite/",
+  "homepage": "https://tonystarkwiz.github.io/MyProtfolioWebsite/#about",
   "description": "",
   "name": "client",
   "version": "0.1.0",
@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d client/build",
+    "deploy": "gh-pages -d build",
     "dev": "react-scripts start"
   },
   "keywords": [],
