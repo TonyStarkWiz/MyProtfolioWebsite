@@ -44,7 +44,16 @@ Enabled scalable real-time fitness tracking with AWS cloud services.
       <div className="details">
         <h3>Software Engineer IV - Android Engineer | Charter Communications</h3>
         <p>
-        A high-performance mobile analytics SDK for tracking app usage and optimizing event data handling.
+        A high-performance 
+
+        <a 
+    href="https://play.google.com/store/apps/details?id=com.spectrum.tv.android.tvsa&hl=en_US"
+    target="_blank"
+    rel="noopener noreferrer">
+     &nbsp;mobile analytics SDK&nbsp; 
+  </a>
+
+for tracking app usage and optimizing event data handling.
 Integrated Firebase SDK + BigQuery for analytics processing and reporting.
 Kotlin, Java, and Android SDK for SDK development.
 Implemented Kotlin Coroutines and WorkManager for efficient background processing and task scheduling.
@@ -73,14 +82,24 @@ Reduced SDK-related crashes by 35% through optimized data handling and debugging
       <div className="details">
         <h3>Senior Android Developer | EnhanceIT</h3>
         <p>
-        Testimony Share: A social media app for user-generated testimonials with secure payments.
+        <a 
+    href="https://play.google.com/store/apps/details?id=com.TestimonyShare.android"
+    target="_blank"
+    rel="noopener noreferrer">
+     Testimony Share:&nbsp; 
+  </a> A social media app for user-generated testimonials with secure payments.
 Integrated Firebase Auth + Firestore for secure authentication and data storage.
 Firebase Authentication and OAuth for user login.
 Google Places API for location-based testimonials.
 Firestore for real-time testimonial data storage.
 Increased user retention by 25% by optimizing UI/UX, leveraging Jetpack Compose (2021+), Firestore, and Cloud CDN to improve interactivity and real-time content delivery.
 Reduced payment transaction errors by 30%.
-Telquel Magazine App: A digital magazine platform with multimedia content and subscriptions.
+<a 
+    href="https://play.google.com/store/apps/details?id=com.mobiblanc.telquel"
+    target="_blank"
+    rel="noopener noreferrer">
+     <br /> Telquel Magazine App:&nbsp; 
+  </a> A digital magazine platform with multimedia content and subscriptions.
 Leveraged Cloud Storage + Cloud CDN for content delivery and caching.
 Kotlin for refactoring Java code.
 Dagger 2 (2018-2020) → Hilt (2020+) for dependency injection.
@@ -104,14 +123,24 @@ Reduced app crashes by 20%.
       <div className="details">
         <h3>Android Developer | EnhanceIT</h3>
         <p>
-        SmartAccess Technologies: A BLE-powered smart access control solution.
+        <a 
+    href="https://play.google.com/store/apps/details?id=com.smartaccesstechnologies.smartaccess"
+    target="_blank"
+    rel="noopener noreferrer">
+     SmartAccess Technologies:&nbsp; 
+  </a> A BLE-powered smart access control solution.
 Utilized AWS Cognito + Lambda for secure authentication and access management.
 Dagger2 for dependency injection.
 Android XML Layouts & View-based UI
 AWS Cognito for user authentication and Lambda for event-driven access control.
 Improved security by 50%.
 Increased user satisfaction by 15%.
-Tehillim: A personalized daily prayer application.
+<a 
+    href="https://play.google.com/store/apps/details?id=org.chabad.tehillim"
+    target="_blank"
+    rel="noopener noreferrer">
+     <br /> Tehillim:&nbsp; 
+  </a> A personalized daily prayer application.
 Integrated Firebase Realtime Database for synchronized user preferences.
 Firebase Realtime Database for dynamic prayer content.
 Implemented FragmentManager & Intent-based Navigation for UI Flow Management.
