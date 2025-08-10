@@ -11,7 +11,7 @@ const Experience = () => (
     <div className="experience-item">
       <div className="timeline">May 2025 - Present</div>
       <div className="details">
-                 <h3 style={{ whiteSpace: 'nowrap', fontSize: '1.5rem' }}>
+        <h3 style={{ whiteSpace: 'nowrap' }}>
           <span>Senior Android Engineer | </span>
           <ShimmerText>DanceLink</ShimmerText>
         </h3>
