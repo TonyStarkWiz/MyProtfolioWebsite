@@ -62,8 +62,7 @@ const Experience = () => (
     <div className="experience-item">
       <div className="timeline">Sep 2022 - Apr 2023</div>
       <div className="details">
-                 <h3>Software Engineer IV - Android Engineer | Charter Communications</h3>
-         <p>
+                          <h3>
            <a 
              href="https://play.google.com/store/apps/details?id=com.spectrum.tv.android.tvsa&hl=en_US" 
              target="_blank" 
@@ -76,10 +75,12 @@ const Experience = () => (
              onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
              onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
            >
-             Mobile Analytics SDK
+             Software Engineer IV - Android Engineer | Charter Communications
            </a>
-           : Tracks app usage and optimizes event data. Used Firebase SDK + BigQuery for analytics. Enabled real-time tracking and scalable storage. Cut costs (30%), improved efficiency (40%), boosted performance (25%). Reduced SDK crashes (35%) through optimized data handling.
-         </p>
+         </h3>
+          <p>
+            Mobile Analytics SDK: Tracks app usage and optimizes event data. Used Firebase SDK + BigQuery for analytics. Enabled real-time tracking and scalable storage. Cut costs (30%), improved efficiency (40%), boosted performance (25%). Reduced SDK crashes (35%) through optimized data handling.
+          </p>
         <ul>
           <li>Developed high-performance mobile analytics SDK (Kotlin, Coroutines, WorkManager).</li>
           <li>Enabled real-time tracking with Firebase SDK + BigQuery for multi-app analytics.</li>
@@ -117,7 +118,20 @@ const Experience = () => (
            >
              Testimony Share
            </a>
-           : A social app for secure testimonials. Used Firebase Auth + Firestore. Enabled real-time testimonials. Increased retention (25%), reduced payment errors (30%). Telquel Magazine: A digital magazine. Used Cloud Storage + CDN. Boosted engagement (40%), reduced crashes (20%).
+                       : A social app for secure testimonials. Used Firebase Auth + Firestore. Enabled real-time testimonials. Increased retention (25%), reduced payment errors (30%). <a 
+              href="https://play.google.com/store/apps/details?id=com.mobiblanc.telquel" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+                cursor: 'pointer'
+              }}
+              onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+              onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+            >
+              Telquel Magazine
+            </a>: A digital magazine. Used Cloud Storage + CDN. Boosted engagement (40%), reduced crashes (20%).
          </p>
         <ul>
           <li>Led team on Testimony Share app (Firebase Auth, Firestore, Google Places API).</li>
@@ -140,9 +154,35 @@ const Experience = () => (
       <div className="timeline">May 2016 - May 2018</div>
       <div className="details">
         <h3>Android Developer | EnhanceIT</h3>
-        <p>
-          SmartAccess Technologies: A BLE-powered smart access solution. Used AWS Cognito + Lambda for authentication. Enabled secure access. Improved security (50%), increased satisfaction (15%). Tehillim: A personalized prayer app. Used Firebase Realtime Database. Boosted engagement (25%), reduced crashes (20%).
-        </p>
+                 <p>
+           <a 
+             href="https://play.google.com/store/apps/details?id=com.smartaccesstechnologies.smartaccess" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             style={{
+               textDecoration: 'none',
+               color: 'inherit',
+               cursor: 'pointer'
+             }}
+             onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+             onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+           >
+             SmartAccess Technologies
+           </a>: A BLE-powered smart access solution. Used AWS Cognito + Lambda for authentication. Enabled secure access. Improved security (50%), increased satisfaction (15%). <a
+             href="https://play.google.com/store/apps/details?id=org.chabad.tehillim"
+             target="_blank"
+             rel="noopener noreferrer"
+             style={{
+               textDecoration: 'none',
+               color: 'inherit',
+               cursor: 'pointer'
+             }}
+             onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+             onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+           >
+             Tehillim
+           </a>: A personalized prayer app. Used Firebase Realtime Database. Boosted engagement (25%), reduced crashes (20%).
+         </p>
         <ul>
           <li>Built SmartAccess: BLE smart access control app with AWS Cognito, Lambda.</li>
           <li>Boosted access security by 50%; improved UX satisfaction by 15%.</li>
