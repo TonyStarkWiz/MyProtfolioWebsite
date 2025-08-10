@@ -179,13 +179,14 @@ export const Section = styled.section`
 export const ExperienceSection = styled.section`
   margin-top: 4rem;
 
-  h2 {
-    font-size: 2rem;
+  h3 {
+    font-size: 1.5rem;
     color: #ccd6f6;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
 
     @media (${breakpoints.tabletL}) {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
     }
   }
 
@@ -216,15 +217,6 @@ export const ExperienceSection = styled.section`
 
     @media (${breakpoints.tabletL}) {
       flex-direction: column;
-    }
-  }
-
-  h3 {
-    font-size: 1.5rem;
-    color: #ccd6f6;
-
-    @media (${breakpoints.tabletL}) {
-      font-size: 1.3rem;
     }
   }
 
@@ -309,10 +301,11 @@ export const ShimmerText = styled.span`
   -webkit-text-fill-color: transparent;
   animation: waveShimmer 3s ease-in-out infinite;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: inherit;
   display: inline;
   white-space: nowrap;
   vertical-align: baseline;
+  line-height: inherit;
 
   @keyframes waveShimmer {
     0% {
