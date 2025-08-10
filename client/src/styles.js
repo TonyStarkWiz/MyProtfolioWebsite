@@ -279,43 +279,8 @@ export const SkillTag = styled.span`
     background-color: rgba(100, 255, 218, 0.25);
   }
 
-  @media (${breakpoints.tabletL}) {
+  @media (${breakpoints.mobileL}) {
     font-size: 0.75rem;
     padding: 0.2rem 0.5rem;
-  }
-`;
-
-export const ShimmerText = styled.span`
-  background: linear-gradient(
-    90deg,
-    #ccd6f6 0%,
-    #8892b0 20%,
-    #ccd6f6 40%,
-    #8892b0 60%,
-    #ccd6f6 80%,
-    #8892b0 100%
-  );
-  background-size: 300% 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: waveShimmer 3s ease-in-out infinite;
-  font-weight: bold;
-  font-size: inherit;
-  display: inline;
-  white-space: nowrap;
-  vertical-align: baseline;
-  line-height: inherit;
-
-  @keyframes waveShimmer {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
   }
 `;
