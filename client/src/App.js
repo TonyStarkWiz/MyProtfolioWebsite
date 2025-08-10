@@ -9,21 +9,19 @@ import MERNIcons from './components/MERNIcons';
 const Experience = () => (
   <ExperienceSection>
     <div className="experience-item">
-      <div className="timeline">Jan 2024 - Present</div>
+      <div className="timeline">May 2025 - Present</div>
       <div className="details">
         <h3>Senior Android Engineer | DanceLink</h3>
         <p>
-          Built a high-converting Android app for dance event discovery and partner matching using MVVM,
-          Compose, and Firebase. Achieved 50% better onboarding conversion and cut Firebase costs 65% with
-          offline caching, WorkManager syncing, and Meta-style infra strategies.
-          Built a high-converting Android app from scratch (MVVM, Jetpack Compose, Hilt).
-          Designed Glassmorphism UI, real-time events, and partner-match flows for engagement.
-          Integrated Firebase (Firestore, Remote Config, Auth) with offline caching and hourly sync.
-          Achieved 50% improvement in onboarding-to-booking conversions using DataStore and
-          location-aware flows.
-          Cut Firebase costs 65% using Instagram-style caching strategies (e.g., fetch boundaries, write
-          batching).
+          Built a high-converting Android app for dance event discovery and partner matching using MVVM, Compose, and Firebase. Achieved 50% better onboarding conversion and cut Firebase costs 65% with offline caching, WorkManager syncing, and Meta-style infra strategies.
         </p>
+        <ul>
+          <li>Built a high-converting Android app from scratch (MVVM, Jetpack Compose, Hilt).</li>
+          <li>Designed Glassmorphism UI, real-time events, and partner-match flows for engagement.</li>
+          <li>Integrated Firebase (Firestore, Remote Config, Auth) with offline caching and hourly sync.</li>
+          <li>Achieved 50% improvement in onboarding-to-booking conversions using DataStore and location-aware flows.</li>
+          <li>Cut Firebase costs 65% using Instagram-style caching strategies (e.g., fetch boundaries, write batching).</li>
+        </ul>
         
         <div className="experience-skills">
           <span>Kotlin</span>
@@ -41,19 +39,15 @@ const Experience = () => (
       <div className="details">
         <h3>Senior Android Developer | Topmate.io</h3>
         <p>
-        A BLE-powered fitness tracking app that enhances real-time analytics and social engagement.
-Implemented AWS IoT Core + Kinesis Data Streams for real-time fitness data streaming.
-BLE synchronization for heart rate monitors, cadence sensors, and smartwatches.
-Google Maps and Mapbox APIs for route tracking.
-AWS IoT Core for real-time BLE device connectivity and Kinesis Data Streams for event-driven fitness analytics.
-Enabling real-time tracking of workout performance with seamless BLE connectivity.
-Processing and streaming fitness data through AWS for real-time insights and historical analysis.
-Reduced BLE latency by 25%, improving tracking accuracy.
-Increased operational efficiency by 30% through cloud optimization.
-Lowered wearable battery consumption by 25% per session.
-Improved user engagement by providing real-time feedback and enhanced social features.
-Enabled scalable real-time fitness tracking with AWS cloud services.
+          A BLE-powered fitness app for real-time analytics. Used AWS IoT Core + Kinesis for data streaming. Enabled BLE sync for heart monitors and smartwatches. Reduced BLE latency (25%), improved efficiency (30%), and battery (25%). Enhanced engagement with real-time feedback.
         </p>
+        <ul>
+          <li>Led BLE-based fitness tracking app with real-time analytics and wearable integration.</li>
+          <li>Architected AWS IoT Core + Kinesis for live fitness streaming and BLE sensor accuracy.</li>
+          <li>Improved BLE sync latency by 25% and battery usage by 25% per session.</li>
+          <li>Enhanced engagement with real-time feedback, Google Maps & Mapbox route tracking.</li>
+          <li>Managed 5-person Agile team and scaled cloud performance (30% ops efficiency gain).</li>
+        </ul>
         
         <div className="experience-skills">
           <span>Kotlin</span>
@@ -62,8 +56,6 @@ Enabled scalable real-time fitness tracking with AWS cloud services.
           <span>Kinesis Data Streams</span>
           <span>Google Maps</span>
           <span>Mapbox</span>
-          
-          
         </div>
       </div>
     </div>
@@ -72,28 +64,15 @@ Enabled scalable real-time fitness tracking with AWS cloud services.
       <div className="details">
         <h3>Software Engineer IV - Android Engineer | Charter Communications</h3>
         <p>
-        A high-performance 
-
-        <a 
-    href="https://play.google.com/store/apps/details?id=com.spectrum.tv.android.tvsa&hl=en_US"
-    target="_blank"
-    rel="noopener noreferrer">
-     &nbsp;mobile analytics SDK&nbsp; 
-  </a>
-
-for tracking app usage and optimizing event data handling.
-Integrated Firebase SDK + BigQuery for analytics processing and reporting.
-Kotlin, Java, and Android SDK for SDK development.
-Implemented Kotlin Coroutines and WorkManager for efficient background processing and task scheduling.
-Firebase SDK for real-time analytics collection and BigQuery for large-scale data analysis.
-Enabling real-time tracking and analytics for mobile applications.
-Processing and storing analytics data using Google Cloud for scalability.
-Reduced data transmission costs by 30% while maintaining real-time accuracy.
-Improved background task efficiency by 40%.
-Achieved a 25% performance boost by migrating from Java to Kotlin.
-Ensured seamless SDK integration into various mobile applications.
-Reduced SDK-related crashes by 35% through optimized data handling and debugging.
+          Mobile Analytics SDK: Tracks app usage and optimizes event data. Used Firebase SDK + BigQuery for analytics. Enabled real-time tracking and scalable storage. Cut costs (30%), improved efficiency (40%), boosted performance (25%). Reduced SDK crashes (35%) through optimized data handling.
         </p>
+        <ul>
+          <li>Developed high-performance mobile analytics SDK (Kotlin, Coroutines, WorkManager).</li>
+          <li>Enabled real-time tracking with Firebase SDK + BigQuery for multi-app analytics.</li>
+          <li>Cut data transmission costs by 30%, boosted background task efficiency by 40%.</li>
+          <li>Migrated codebase to Kotlin, achieving 25% app performance boost</li>
+          <li>Reduced SDK-related crashes by 35% with optimized async data handling.</li>
+        </ul>
         
         <div className="experience-skills">
           <span>Kotlin</span>
@@ -110,31 +89,14 @@ Reduced SDK-related crashes by 35% through optimized data handling and debugging
       <div className="details">
         <h3>Senior Android Developer | EnhanceIT</h3>
         <p>
-        <a 
-    href="https://play.google.com/store/apps/details?id=com.TestimonyShare.android"
-    target="_blank"
-    rel="noopener noreferrer">
-     Testimony Share:&nbsp; 
-  </a> A social media app for user-generated testimonials with secure payments.
-Integrated Firebase Auth + Firestore for secure authentication and data storage.
-Firebase Authentication and OAuth for user login.
-Google Places API for location-based testimonials.
-Firestore for real-time testimonial data storage.
-Increased user retention by 25% by optimizing UI/UX, leveraging Jetpack Compose (2021+), Firestore, and Cloud CDN to improve interactivity and real-time content delivery.
-Reduced payment transaction errors by 30%.
-<a 
-    href="https://play.google.com/store/apps/details?id=com.mobiblanc.telquel"
-    target="_blank"
-    rel="noopener noreferrer">
-     <br /> Telquel Magazine App:&nbsp; 
-  </a> A digital magazine platform with multimedia content and subscriptions.
-Leveraged Cloud Storage + Cloud CDN for content delivery and caching.
-Kotlin for refactoring Java code.
-Dagger 2 (2018-2020) → Hilt (2020+) for dependency injection.
-Cloud Storage for managing large multimedia content and Cloud CDN for optimized delivery.
-Increased user engagement by 40%.
-Reduced app crashes by 20%.
+          Testimony Share: A social app for secure testimonials. Used Firebase Auth + Firestore. Enabled real-time testimonials. Increased retention (25%), reduced payment errors (30%). Telquel Magazine: A digital magazine. Used Cloud Storage + CDN. Boosted engagement (40%), reduced crashes (20%).
         </p>
+        <ul>
+          <li>Led team on Testimony Share app (Firebase Auth, Firestore, Google Places API).</li>
+          <li>Boosted retention 25% with Compose, Firestore, Cloud CDN optimizations.</li>
+          <li>Decreased payment errors by 30%; refactored platform to Kotlin for better UX.</li>
+          <li>Rebuilt Telquel Magazine App with Cloud Storage/CDN, cutting load time, boosting engagement by 40%.</li>
+        </ul>
         
         <div className="experience-skills">
           <span>Kotlin</span>
@@ -151,30 +113,14 @@ Reduced app crashes by 20%.
       <div className="details">
         <h3>Android Developer | EnhanceIT</h3>
         <p>
-        <a 
-    href="https://play.google.com/store/apps/details?id=com.smartaccesstechnologies.smartaccess"
-    target="_blank"
-    rel="noopener noreferrer">
-     SmartAccess Technologies:&nbsp; 
-  </a> A BLE-powered smart access control solution.
-Utilized AWS Cognito + Lambda for secure authentication and access management.
-Dagger2 for dependency injection.
-Android XML Layouts & View-based UI
-AWS Cognito for user authentication and Lambda for event-driven access control.
-Improved security by 50%.
-Increased user satisfaction by 15%.
-<a 
-    href="https://play.google.com/store/apps/details?id=org.chabad.tehillim"
-    target="_blank"
-    rel="noopener noreferrer">
-     <br /> Tehillim:&nbsp; 
-  </a> A personalized daily prayer application.
-Integrated Firebase Realtime Database for synchronized user preferences.
-Firebase Realtime Database for dynamic prayer content.
-Implemented FragmentManager & Intent-based Navigation for UI Flow Management.
-Increased engagement by 25%.
-Reduced app crashes by 20%.
+          SmartAccess Technologies: A BLE-powered smart access solution. Used AWS Cognito + Lambda for authentication. Enabled secure access. Improved security (50%), increased satisfaction (15%). Tehillim: A personalized prayer app. Used Firebase Realtime Database. Boosted engagement (25%), reduced crashes (20%).
         </p>
+        <ul>
+          <li>Built SmartAccess: BLE smart access control app with AWS Cognito, Lambda.</li>
+          <li>Boosted access security by 50%; improved UX satisfaction by 15%.</li>
+          <li>Developed Tehillim daily prayer app using Firebase Realtime DB + custom navigation.</li>
+          <li>Increased engagement 25%; reduced crashes by 20% through better real-time sync.</li>
+        </ul>
         
         <div className="experience-skills">
           <span>Java</span>
@@ -198,6 +144,13 @@ const Projects = () => (
         <p>
           I built a comprehensive laboratory operations metrics platform that simulates specimen flow, computes turnaround time and throughput analytics, and triggers automated alerts for SLA breaches. The system generates HIPAA-safe synthetic data to mimic real lab events, processes them through a FastAPI backend to calculate engineering metrics, and presents insights through an interactive Streamlit dashboard with real-time KPI monitoring. My implementation included a "What-if" simulation panel for capacity planning, automated Microsoft Teams alerting when thresholds are breached, and Power BI export functionality for enterprise reporting. The project demonstrated end-to-end ownership of a healthcare informatics solution, complete with comprehensive testing, CI/CD pipeline, and agile project management through GitHub Projects and user story documentation.
         </p>
+        <ul>
+          <li>Built comprehensive lab operations metrics platform with FastAPI backend and Streamlit dashboard.</li>
+          <li>Generated HIPAA-safe synthetic data to simulate real laboratory specimen flow and events.</li>
+          <li>Implemented real-time KPI monitoring with turnaround time, throughput, and SLA breach analytics.</li>
+          <li>Created "What-if" simulation panel for capacity planning and automated Microsoft Teams alerting.</li>
+          <li>Added Power BI export functionality and comprehensive testing with CI/CD pipeline.</li>
+        </ul>
         <div className="experience-skills">
           <span>Python</span>
           <span>FastAPI</span>
