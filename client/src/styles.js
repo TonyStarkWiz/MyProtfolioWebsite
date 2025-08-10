@@ -309,18 +309,8 @@ export const ShimmerText = styled.span`
   -webkit-text-fill-color: transparent;
   animation: waveShimmer 3s ease-in-out infinite;
   font-weight: bold;
-  font-size: 1.5rem !important;
-  line-height: 1.2;
+  font-size: inherit;
   display: inline;
-  white-space: nowrap;
-  word-wrap: normal;
-  overflow-wrap: normal;
-  float: none;
-  clear: none;
-
-  @media (max-width: 768px) {
-    font-size: 1.3rem !important;
-  }
 
   @keyframes waveShimmer {
     0% {
