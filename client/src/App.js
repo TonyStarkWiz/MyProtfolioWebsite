@@ -9,6 +9,34 @@ import MERNIcons from './components/MERNIcons';
 const Experience = () => (
   <ExperienceSection>
     <div className="experience-item">
+      <div className="timeline">Jan 2024 - Present</div>
+      <div className="details">
+        <h3>Senior Android Engineer | DanceLink</h3>
+        <p>
+          Built a high-converting Android app for dance event discovery and partner matching using MVVM,
+          Compose, and Firebase. Achieved 50% better onboarding conversion and cut Firebase costs 65% with
+          offline caching, WorkManager syncing, and Meta-style infra strategies.
+          Built a high-converting Android app from scratch (MVVM, Jetpack Compose, Hilt).
+          Designed Glassmorphism UI, real-time events, and partner-match flows for engagement.
+          Integrated Firebase (Firestore, Remote Config, Auth) with offline caching and hourly sync.
+          Achieved 50% improvement in onboarding-to-booking conversions using DataStore and
+          location-aware flows.
+          Cut Firebase costs 65% using Instagram-style caching strategies (e.g., fetch boundaries, write
+          batching).
+        </p>
+        
+        <div className="experience-skills">
+          <span>Kotlin</span>
+          <span>MVVM</span>
+          <span>Jetpack Compose</span>
+          <span>Hilt</span>
+          <span>Firebase</span>
+          <span>WorkManager</span>
+          <span>DataStore</span>
+        </div>
+      </div>
+    </div>
+    <div className="experience-item">
       <div className="timeline">May 2023 - Present</div>
       <div className="details">
         <h3>Senior Android Developer | Topmate.io</h3>
