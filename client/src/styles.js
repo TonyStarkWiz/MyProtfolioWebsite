@@ -222,6 +222,8 @@ export const ExperienceSection = styled.section`
   h3 {
     font-size: 1.5rem;
     color: #ccd6f6;
+    white-space: nowrap;
+    overflow: hidden;
 
     @media (${breakpoints.tabletL}) {
       font-size: 1.3rem;
@@ -311,6 +313,8 @@ export const ShimmerText = styled.span`
   font-weight: bold;
   font-size: inherit;
   display: inline;
+  white-space: nowrap;
+  vertical-align: baseline;
 
   @keyframes waveShimmer {
     0% {
