@@ -62,10 +62,24 @@ const Experience = () => (
     <div className="experience-item">
       <div className="timeline">Sep 2022 - Apr 2023</div>
       <div className="details">
-        <h3>Software Engineer IV - Android Engineer | Charter Communications</h3>
-        <p>
-          Mobile Analytics SDK: Tracks app usage and optimizes event data. Used Firebase SDK + BigQuery for analytics. Enabled real-time tracking and scalable storage. Cut costs (30%), improved efficiency (40%), boosted performance (25%). Reduced SDK crashes (35%) through optimized data handling.
-        </p>
+                 <h3>Software Engineer IV - Android Engineer | Charter Communications</h3>
+         <p>
+           <a 
+             href="https://play.google.com/store/apps/details?id=com.spectrum.tv.android.tvsa&hl=en_US" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             style={{
+               textDecoration: 'none',
+               color: 'inherit',
+               cursor: 'pointer'
+             }}
+             onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+             onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+           >
+             Mobile Analytics SDK
+           </a>
+           : Tracks app usage and optimizes event data. Used Firebase SDK + BigQuery for analytics. Enabled real-time tracking and scalable storage. Cut costs (30%), improved efficiency (40%), boosted performance (25%). Reduced SDK crashes (35%) through optimized data handling.
+         </p>
         <ul>
           <li>Developed high-performance mobile analytics SDK (Kotlin, Coroutines, WorkManager).</li>
           <li>Enabled real-time tracking with Firebase SDK + BigQuery for multi-app analytics.</li>
