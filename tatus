@@ -1,0 +1,43 @@
+[33mcommit 3b324c53a12479402237b65ff62fd0ea193efac6[m[33m ([m[1;31morigin/gh-pages[m[33m)[m
+Author: TonyStarkWiz <anthonyespinosa33891@gmail.com>
+Date:   Sat Mar 22 14:00:22 2025 -0400
+
+    Updates
+
+Certificates/cert.pem
+Certificates/key.pem
+asset-manifest.json
+client/README.md
+client/dummy.txt
+client/package.json
+client/public/index.html
+client/src/App.css
+client/src/App.js
+client/src/App.test.js
+client/src/assets/New_Replit_Logo.svg.svg
+client/src/components/About.js
+client/src/components/Experience.js
+client/src/components/MERNIcons.js
+client/src/components/Navbar.css
+client/src/components/Navbar.js
+client/src/components/Projects.js
+client/src/index.css
+client/src/index.js
+client/src/logo.svg
+client/src/reportWebVitals.js
+client/src/setupTests.js
+client/src/styles.js
+favicon.ico
+index.html
+logo192.png
+logo512.png
+manifest.json
+package.json
+public/index.html
+robots.txt
+server.js
+static/css/main.bc5e1449.css
+static/css/main.bc5e1449.css.map
+static/js/main.403c93fb.js
+static/js/main.403c93fb.js.LICENSE.txt
+static/js/main.403c93fb.js.map
