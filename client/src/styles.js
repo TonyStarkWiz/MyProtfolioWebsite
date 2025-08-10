@@ -313,6 +313,10 @@ export const ShimmerText = styled.span`
   line-height: 1.2;
   display: inline;
   white-space: nowrap;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  float: none;
+  clear: none;
 
   @media (max-width: 768px) {
     font-size: 1.3rem !important;
