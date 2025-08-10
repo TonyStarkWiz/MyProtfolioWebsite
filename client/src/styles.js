@@ -296,12 +296,12 @@ export const SkillTag = styled.span`
 export const ShimmerText = styled.span`
   background: linear-gradient(
     90deg,
-    #64ffda 0%,
-    #ccd6f6 20%,
-    #64ffda 40%,
-    #ccd6f6 60%,
-    #64ffda 80%,
-    #ccd6f6 100%
+    #E5E4E2 0%,
+    #C0C0C0 20%,
+    #E5E4E2 40%,
+    #C0C0C0 60%,
+    #E5E4E2 80%,
+    #C0C0C0 100%
   );
   background-size: 300% 100%;
   background-clip: text;
@@ -309,7 +309,14 @@ export const ShimmerText = styled.span`
   -webkit-text-fill-color: transparent;
   animation: waveShimmer 3s ease-in-out infinite;
   font-weight: bold;
-  font-size: inherit;
+  font-size: 1.5rem !important;
+  line-height: 1.2;
+  display: inline-block;
+  vertical-align: baseline;
+
+  @media (max-width: 768px) {
+    font-size: 1.3rem !important;
+  }
 
   @keyframes waveShimmer {
     0% {
