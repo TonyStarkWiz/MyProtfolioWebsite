@@ -297,24 +297,29 @@ export const ShimmerText = styled.span`
   background: linear-gradient(
     90deg,
     #64ffda 0%,
-    #ccd6f6 25%,
-    #64ffda 50%,
-    #ccd6f6 75%,
-    #64ffda 100%
+    #ccd6f6 20%,
+    #64ffda 40%,
+    #ccd6f6 60%,
+    #64ffda 80%,
+    #ccd6f6 100%
   );
-  background-size: 200% 100%;
+  background-size: 300% 100%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shimmer 2s ease-in-out infinite;
+  animation: waveShimmer 3s ease-in-out infinite;
   font-weight: bold;
+  font-size: inherit;
 
-  @keyframes shimmer {
+  @keyframes waveShimmer {
     0% {
-      background-position: 200% 0;
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
     }
     100% {
-      background-position: -200% 0;
+      background-position: 0% 50%;
     }
   }
 `;
