@@ -101,10 +101,24 @@ const Experience = () => (
     <div className="experience-item">
       <div className="timeline">May 2018 - Sep 2022</div>
       <div className="details">
-        <h3>Senior Android Developer | EnhanceIT</h3>
-        <p>
-          Testimony Share: A social app for secure testimonials. Used Firebase Auth + Firestore. Enabled real-time testimonials. Increased retention (25%), reduced payment errors (30%). Telquel Magazine: A digital magazine. Used Cloud Storage + CDN. Boosted engagement (40%), reduced crashes (20%).
-        </p>
+                 <h3>Senior Android Developer | EnhanceIT</h3>
+         <p>
+           <a 
+             href="https://play.google.com/store/apps/details?id=com.TestimonyShare.android" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             style={{
+               textDecoration: 'none',
+               color: 'inherit',
+               cursor: 'pointer'
+             }}
+             onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+             onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+           >
+             Testimony Share
+           </a>
+           : A social app for secure testimonials. Used Firebase Auth + Firestore. Enabled real-time testimonials. Increased retention (25%), reduced payment errors (30%). Telquel Magazine: A digital magazine. Used Cloud Storage + CDN. Boosted engagement (40%), reduced crashes (20%).
+         </p>
         <ul>
           <li>Led team on Testimony Share app (Firebase Auth, Firestore, Google Places API).</li>
           <li>Boosted retention 25% with Compose, Firestore, Cloud CDN optimizations.</li>
