@@ -138,7 +138,7 @@ const Experience = () => (
 const Projects = () => (
   <ExperienceSection>
     <div className="experience-item">
-    <div className="timeline">Aug 2024 - Aug 2024</div>
+    <div className="timeline">Aug 2025 - Aug 2025</div>
       <div className="details">
         <h3>LabOps Metrics Starter Kit</h3>
         <p>
