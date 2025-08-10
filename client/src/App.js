@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Sidebar, MainContent, Section, SidebarLink, SocialLinks, ExperienceSection } from './styles';
+import { Container, Sidebar, MainContent, Section, SidebarLink, SocialLinks, ExperienceSection, ShimmerText } from './styles';
 
 import About from './components/About';
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaCodepen } from 'react-icons/fa';
@@ -11,7 +11,7 @@ const Experience = () => (
     <div className="experience-item">
       <div className="timeline">May 2025 - Present</div>
       <div className="details">
-        <h3>Senior Android Engineer | DanceLink</h3>
+                 <h3>Senior Android Engineer | <ShimmerText>DanceLink</ShimmerText></h3>
         <p>
           Built a high-converting Android app for dance event discovery and partner matching using MVVM, Compose, and Firebase. Achieved 50% better onboarding conversion and cut Firebase costs 65% with offline caching, WorkManager syncing, and Meta-style infra strategies.
         </p>

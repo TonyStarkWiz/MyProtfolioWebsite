@@ -292,3 +292,29 @@ export const SkillTag = styled.span`
     padding: 0.2rem 0.5rem;
   }
 `;
+
+export const ShimmerText = styled.span`
+  background: linear-gradient(
+    90deg,
+    #64ffda 0%,
+    #ccd6f6 25%,
+    #64ffda 50%,
+    #ccd6f6 75%,
+    #64ffda 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 2s ease-in-out infinite;
+  font-weight: bold;
+
+  @keyframes shimmer {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+`;
