@@ -209,31 +209,31 @@ const Projects = () => (
     <div className="timeline">Aug 2025 - Aug 2025</div>
       <div className="details">
                  <h3>
-           <a 
-             href="https://labops-metrics-starter-kit.streamlit.app/" 
-             target="_blank" 
-             rel="noopener noreferrer"
-             style={{
-               textDecoration: 'none',
-               color: 'inherit',
-               cursor: 'pointer'
-             }}
-             onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
-             onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
-           >
-             LabOps Metrics Starter Kit
-           </a>
+                       <a 
+              href="https://tonystarkwiz.github.io/labops-metrics-starter-kit/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{
+                textDecoration: 'none',
+                color: 'inherit',
+                cursor: 'pointer'
+              }}
+              onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+              onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+            >
+              LabOps Metrics Starter Kit
+            </a>
          </h3>
-                 <p>
-           I built a laboratory operations metrics platform that simulates specimen flow, computes turnaround time and throughput analytics, and triggers automated alerts for SLA breaches. The system generates HIPAA-safe synthetic data, processes them through a FastAPI backend, and presents insights through a Streamlit dashboard with real-time KPI monitoring. My implementation included a "What-if" simulation panel for capacity planning, automated Microsoft Teams alerting, and Power BI export functionality for enterprise reporting. The project demonstrated end-to-end ownership of a healthcare informatics solution, complete with comprehensive testing, CI/CD pipeline, and agile project management through GitHub Projects and user story documentation.
-         </p>
-        <ul>
-          <li>Built comprehensive lab operations metrics platform with FastAPI backend and Streamlit dashboard.</li>
-          <li>Generated HIPAA-safe synthetic data to simulate real laboratory specimen flow and events.</li>
-          <li>Implemented real-time KPI monitoring with turnaround time, throughput, and SLA breach analytics.</li>
-          <li>Created "What-if" simulation panel for capacity planning and automated Microsoft Teams alerting.</li>
-          <li>Added Power BI export functionality and comprehensive testing with CI/CD pipeline.</li>
-        </ul>
+                                   <p>
+            I built a lab operations metrics platform in Python using FastAPI, Power BI, and GitHub Pages to simulate specimen flow, analyze KPIs, trigger SLA alerts, and support capacity planning—delivering a fully tested, CI/CD-enabled healthcare informatics solution with real-time enterprise reporting.
+          </p>
+                 <ul>
+           <li>Built comprehensive lab operations metrics platform with a Python FastAPI backend and deployed dashboard.</li>
+           <li>Generated HIPAA-safe synthetic data to simulate real laboratory specimen flow and events.</li>
+           <li>Implemented real-time KPI monitoring with turnaround time, throughput, and SLA breach analytics.</li>
+           <li>Created "What-if" simulation panel for capacity planning and automated Microsoft Teams alerting.</li>
+           <li>Added Power BI export functionality and comprehensive testing with CI/CD pipeline.</li>
+         </ul>
         <div className="experience-skills">
           <span>Python</span>
           <span>FastAPI</span>
