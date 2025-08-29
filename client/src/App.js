@@ -11,7 +11,22 @@ const Experience = () => (
     <div className="experience-item">
       <div className="timeline">May 2025 - Present</div>
       <div className="details">
-        <h3>Founder & Lead Software Engineer – DanceLink</h3>
+        <h3>
+          <a 
+            href="https://play.google.com/store/apps/details?id=anthony.project.dancelink" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: 'none',
+              color: 'inherit',
+              cursor: 'pointer'
+            }}
+            onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
+            onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
+          >
+            Founder & Lead Software Engineer – DanceLink
+          </a>
+        </h3>
         <p>
           Built DanceLink from concept to production across Android, iOS, and Web using React Native, SwiftUI, and React.js. Achieved 50% better conversion, 65% cost reduction, and 40% faster partner matching.
         </p>
