@@ -28,14 +28,15 @@ const Experience = () => (
           </a>
         </h3>
         <p>
-          Founded and engineered DanceLink's cross-platform ecosystem—a dance event discovery and partner matching platform. Built from zero using React Native, SwiftUI, and React.js with shared Firebase backend. Delivered 50% conversion improvement, 65% cost reduction, and 40% faster matching through intelligent algorithms and Meta-style infrastructure.
+          Founded and engineered DanceLink—a comprehensive dance ecosystem with AI-powered event discovery, real-time partner matching, premium subscriptions, and global location services. Built from zero using Kotlin/Compose, SwiftUI, and React.js with Firebase backend. Delivered 50% conversion improvement, 65% cost reduction, and 40% faster matching through intelligent algorithms and enterprise architecture.
         </p>
+        <h4>Highlights:</h4>
         <ul>
-          <li>Architected and built complete DanceLink ecosystem from concept to production across Android (React Native), iOS (SwiftUI), and Web (React.js) with shared Firebase backend and real-time synchronization.</li>
-          <li>Designed and implemented Glassmorphism UI system, real-time event discovery, and intelligent partner-matching algorithms that reduced matching time by 40% and increased user engagement by 60%.</li>
-          <li>Engineered cross-platform data layer with Firebase (Firestore, Remote Config, Auth) featuring offline-first architecture, WorkManager background sync, and intelligent caching that cut infrastructure costs by 65%.</li>
-          <li>Optimized onboarding-to-booking conversion by 50% through location-aware flows, DataStore persistence, and personalized recommendation algorithms that increased user retention by 35%.</li>
-          <li>Implemented Instagram-style caching strategies with fetch boundaries, write batching, and predictive loading that reduced API calls by 70% and improved app performance by 45% across all platforms.</li>
+          <li>Architected complete DanceLink ecosystem across Android (Kotlin/Compose), iOS (SwiftUI), and Web (React.js) with Firebase backend—implementing AI-powered event discovery, real-time partner matching, premium subscription billing, and global location services supporting 80+ countries.</li>
+          <li>Engineered sophisticated monetization system with Google Play Billing integration, multi-tier pricing ($14.99/month, $149.99/year), high-converting paywalls, and 30-day money-back guarantee—achieving 50% conversion improvement and 65% cost reduction through intelligent caching and Meta-style infrastructure.</li>
+          <li>Built comprehensive event discovery platform integrating Dance Events API, Eventbrite API, and Google Custom Search with AI-powered event generation, real-time caching, and intelligent fallback systems—enabling users to discover dance events across 5 continents with smart postal code validation.</li>
+          <li>Developed advanced partner matching system with bilateral matching algorithms, real-time notifications, event-based compatibility scoring, and automatic chat creation—reducing matching time by 40% and increasing user engagement by 60% through sophisticated preference tracking.</li>
+          <li>Implemented enterprise-grade features including real-time chat with typing indicators, video upload/compression using Media3, glassmorphism UI with Material 3, international postal code support, and comprehensive security with Firebase App Check—delivering 45% performance improvement and 70% API call reduction.</li>
         </ul>
         
         <div className="experience-skills">
