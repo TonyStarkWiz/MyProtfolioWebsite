@@ -1,3 +1,31 @@
 [33m542c264[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mgh-pages[m[33m)[m Replace CryptoLive project with LabOps Metrics Starter Kit project
 [33mb357cfd[m  Update About section content
 [33me4bc9f0[m 🚀 Update About section and clean up build artifacts
+[1mdiff --git a/client/src/App.js b/client/src/App.js[m
+[1mindex 504cf78..76d3ed6 100644[m
+[1m--- a/client/src/App.js[m
+[1m+++ b/client/src/App.js[m
+[36m@@ -11,16 +11,16 @@[m [mconst Experience = () => ([m
+     <div className="experience-item">[m
+       <div className="timeline">May 2025 - Present</div>[m
+       <div className="details">[m
+[31m-        <h3>Senior Android Engineer | DanceLink</h3>[m
+[32m+[m[32m        <h3>Founder & Lead Software Engineer – DanceLink</h3>[m
+         <p>[m
+[31m-          Built a high-converting Android app for dance event discovery and partner matching using MVVM, Compose, and Firebase. Achieved 50% better onboarding conversion and cut Firebase costs 65% with offline caching, WorkManager syncing, and Meta-style infra strategies.[m
+[32m+[m[32m          Built DanceLink from concept to production across Android, iOS, and Web using React Native, SwiftUI, and React.js. Achieved 50% better conversion, 65% cost reduction, and 40% faster partner matching.[m
+         </p>[m
+         <ul>[m
+[31m-          <li>Built a high-converting Android app from scratch (MVVM, Jetpack Compose, Hilt).</li>[m
+[31m-          <li>Designed Glassmorphism UI, real-time events, and partner-match flows for engagement.</li>[m
+[31m-          <li>Integrated Firebase (Firestore, Remote Config, Auth) with offline caching and hourly sync.</li>[m
+[31m-          <li>Achieved 50% improvement in onboarding-to-booking conversions using DataStore and location-aware flows.</li>[m
+[31m-          <li>Cut Firebase costs 65% using Instagram-style caching strategies (e.g., fetch boundaries, write batching).</li>[m
+[32m+[m[32m          <li>Architected and built complete DanceLink ecosystem from concept to production across Android (React Native), iOS (SwiftUI), and Web (React.js) with shared Firebase backend and real-time synchronization.</li>[m
+[32m+[m[32m          <li>Designed and implemented Glassmorphism UI system, real-time event discovery, and intelligent partner-matching algorithms that reduced matching time by 40% and increased user engagement by 60%.</li>[m
+[32m+[m[32m          <li>Engineered cross-platform data layer with Firebase (Firestore, Remote Config, Auth) featuring offline-first architecture, WorkManager background sync, and intelligent caching that cut infrastructure costs by 65%.</li>[m
+[32m+[m[32m          <li>Optimized onboarding-to-booking conversion by 50% through location-aware flows, DataStore persistence, and personalized recommendation algorithms that increased user retention by 35%.</li>[m
+[32m+[m[32m          <li>Implemented Instagram-style caching strategies with fetch boundaries, write batching, and predictive loading that reduced API calls by 70% and improved app performance by 45% across all platforms.</li>[m
+         </ul>[m
+         [m
+         <div className="experience-skills">[m
