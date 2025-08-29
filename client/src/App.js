@@ -28,7 +28,7 @@ const Experience = () => (
           </a>
         </h3>
         <p>
-          Built DanceLink from concept to production across Android, iOS, and Web using React Native, SwiftUI, and React.js. Achieved 50% better conversion, 65% cost reduction, and 40% faster partner matching.
+          Founded and engineered DanceLink's cross-platform ecosystem—a dance event discovery and partner matching platform. Built from zero using React Native, SwiftUI, and React.js with shared Firebase backend. Delivered 50% conversion improvement, 65% cost reduction, and 40% faster matching through intelligent algorithms and Meta-style infrastructure.
         </p>
         <ul>
           <li>Architected and built complete DanceLink ecosystem from concept to production across Android (React Native), iOS (SwiftUI), and Web (React.js) with shared Firebase backend and real-time synchronization.</li>
