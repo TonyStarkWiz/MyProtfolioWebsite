@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Or whichever branch you want to trigger the deployment from
+      - gh-pages  # Changed to gh-pages branch
 
 jobs:
   deploy:
@@ -13,19 +13,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3  # Updated action
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3  # Updated action
-      with:
-        node-version: '18'  # Explicitly set to Node.js 18
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build the project
-      run: npm run build
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
+        publish_dir: ./  # Changed to current directory
