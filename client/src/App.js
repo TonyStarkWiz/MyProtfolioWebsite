@@ -28,7 +28,7 @@ const Experience = () => (
           </a>
         </h3>
         <p>
-          Founded and engineered DanceLink—a comprehensive dance ecosystem with AI-powered event discovery, real-time partner matching, premium subscriptions, and global location services. Built from zero using Kotlin/Compose, SwiftUI, and React.js with Firebase backend. Delivered 50% conversion improvement, 65% cost reduction, and 40% faster matching through intelligent algorithms and enterprise architecture.
+          Founded and engineered DanceLink—a comprehensive dance ecosystem with AI-powered event discovery, real-time partner matching, and premium subscriptions. Built from zero using Kotlin/Compose, SwiftUI, and React.js with Firebase backend. Delivered 50% conversion improvement, 65% cost reduction, and 40% faster matching through intelligent algorithms.
         </p>
         <h4>Highlights:</h4>
         <ul>
