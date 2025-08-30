@@ -24,7 +24,7 @@ const Experience = () => (
             onMouseEnter={(e) => e.target.style.textDecoration = 'underline'}
             onMouseLeave={(e) => e.target.style.textDecoration = 'none'}
           >
-            Founder & Lead Software Engineer – DanceLink
+            Founder & Lead Software Engineer | DanceLink
           </a>
         </h3>
         <p>
@@ -40,12 +40,20 @@ const Experience = () => (
         
         <div className="experience-skills">
           <span>Kotlin</span>
+          <span>Swift</span>
+          <span>React.js</span>
           <span>MVVM</span>
           <span>Jetpack Compose</span>
+          <span>SwiftUI</span>
           <span>Hilt</span>
           <span>Firebase</span>
           <span>WorkManager</span>
           <span>DataStore</span>
+          <span>TypeScript</span>
+          <span>Node.js</span>
+          <span>REST APIs</span>
+          <span>Git</span>
+          <span>GitHub</span>
         </div>
       </div>
     </div>
