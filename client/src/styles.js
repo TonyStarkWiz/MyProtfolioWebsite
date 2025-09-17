@@ -280,10 +280,11 @@ export const SkillTag = styled.span`
   font-size: 0.875rem;
   padding: 0.25rem 0.75rem;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
     background-color: rgba(100, 255, 218, 0.25);
+    box-shadow: 0 4px 8px rgba(100, 255, 218, 0.3);
   }
 
   @media (${breakpoints.mobileL}) {
