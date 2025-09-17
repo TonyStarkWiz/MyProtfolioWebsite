@@ -184,7 +184,7 @@ export const ExperienceSection = styled.section`
 
   h3 {
     font-size: 1.5rem;
-    color: #ccd6f6;
+    color: #ccd6f6 !important;
     margin-bottom: 0.5rem;
     white-space: nowrap;
 
@@ -226,7 +226,7 @@ export const ExperienceSection = styled.section`
   span {
     display: block;
     font-size: 1rem;
-    color: #ccd6f6;
+    color: #ccd6f6 !important;
     margin-bottom: 0.5rem;
 
     @media (${breakpoints.tabletL}) {
@@ -236,12 +236,16 @@ export const ExperienceSection = styled.section`
 
   p {
     font-size: 1rem;
-    color: #ccd6f6;
+    color: #ccd6f6 !important;
     margin-bottom: 1rem;
 
     @media (${breakpoints.tabletL}) {
       font-size: 0.9rem;
     }
+  }
+
+  li {
+    color: #ccd6f6 !important;
   }
 
   .experience-skills {
