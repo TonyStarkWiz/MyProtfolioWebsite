@@ -198,21 +198,21 @@ export const ExperienceSection = styled.section`
     align-items: flex-start;
     margin-bottom: 3rem;
 
-    .timeline {
-      width: 150px;
-      color: #8892b0;
-      font-size: 0.875rem;
-      text-align: left;
-      padding-right: 1rem;
-      padding-top: 0.4rem;
+  .timeline {
+    width: 150px;
+    color: #ccd6f6;
+    font-size: 0.875rem;
+    text-align: left;
+    padding-right: 1rem;
+    padding-top: 0.4rem;
 
-      @media (${breakpoints.tabletL}) {
-        text-align: left;
-        width: 100%;
-        padding: 0;
-        margin-bottom: 1rem;
-      }
+    @media (${breakpoints.tabletL}) {
+      text-align: left;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 1rem;
     }
+  }
 
     .details {
       flex: 1;
@@ -226,7 +226,7 @@ export const ExperienceSection = styled.section`
   span {
     display: block;
     font-size: 1rem;
-    color: #8892b0;
+    color: #ccd6f6;
     margin-bottom: 0.5rem;
 
     @media (${breakpoints.tabletL}) {
@@ -236,7 +236,7 @@ export const ExperienceSection = styled.section`
 
   p {
     font-size: 1rem;
-    color: #a8b2d1;
+    color: #ccd6f6;
     margin-bottom: 1rem;
 
     @media (${breakpoints.tabletL}) {

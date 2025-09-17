@@ -20,6 +20,17 @@ nav ul {
   justify-content: center;
 }
 
+/* Ensure bullet points are visible in experience sections */
+.experience-item ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.5rem;
+  color: #ccd6f6;
+}
+
 nav ul li {
   margin: 0 1rem;
   cursor: pointer;
