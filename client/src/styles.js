@@ -18,6 +18,8 @@ export const Container = styled.div`
   display: flex;
   padding-left: 40px;
   padding-right: 40px;
+  background: #0a192f;
+  min-height: 100vh;
 
   @media (${breakpoints.tabletL}) {
     flex-direction: column; /* Stack elements vertically on mobile */
@@ -88,6 +90,7 @@ export const MainContent = styled.div`
   width: 60%;
   padding: 2rem 0;
   flex: 1;
+  background: #0a192f;
 
   @media (${breakpoints.tabletL}) {
     margin-left: 0;
