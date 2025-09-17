@@ -22,13 +22,25 @@ nav ul {
 
 /* Ensure bullet points are visible in experience sections */
 .experience-item ul {
-  list-style: disc;
-  padding-left: 1.5rem;
+  list-style: disc !important;
+  padding-left: 1.5rem !important;
+  margin-left: 0 !important;
 }
 
 .experience-item li {
   margin-bottom: 0.5rem;
   color: #ccd6f6;
+  list-style: disc !important;
+  display: list-item !important;
+}
+
+/* Override any global list-style resets for experience sections only */
+.experience-item ul {
+  list-style: disc !important;
+}
+
+.experience-item li {
+  display: list-item !important;
 }
 
 nav ul li {
