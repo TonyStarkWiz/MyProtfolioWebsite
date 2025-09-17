@@ -55,6 +55,7 @@ section {
 }
 
 /* Ensure skill tags are green with hover effects */
+.experience-item .experience-skills span,
 .experience-skills span {
   background-color: rgba(100, 255, 218, 0.1) !important;
   color: #64ffda !important;
@@ -65,13 +66,17 @@ section {
   display: inline-block !important;
   margin-right: 0.5rem !important;
   margin-bottom: 0.5rem !important;
+  border: none !important;
 }
 
+.experience-item .experience-skills span:hover,
 .experience-skills span:hover {
   background-color: rgba(100, 255, 218, 0.25) !important;
+  color: #64ffda !important;
 }
 
 @media (max-width: 480px) {
+  .experience-item .experience-skills span,
   .experience-skills span {
     font-size: 0.75rem !important;
     padding: 0.2rem 0.5rem !important;
