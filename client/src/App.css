@@ -33,3 +33,14 @@ section {
   padding: 2rem;
   margin: 2rem 0;
 }
+
+/* Ensure job titles and descriptions are the same white color */
+.experience-item h3,
+.experience-item h3 a,
+.experience-item p {
+  color: #ccd6f6 !important;
+}
+
+.experience-item ul li {
+  color: #ccd6f6 !important;
+}
