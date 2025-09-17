@@ -29,9 +29,18 @@ nav ul {
 
 .experience-item li {
   margin-bottom: 0.5rem;
-  color: #ccd6f6;
+  color: #ccd6f6 !important;
   list-style: disc !important;
   display: list-item !important;
+}
+
+/* Make all experience text bright white */
+.experience-item p {
+  color: #ccd6f6 !important;
+}
+
+.experience-item span {
+  color: #ccd6f6 !important;
 }
 
 /* Override any global list-style resets for experience sections only */
