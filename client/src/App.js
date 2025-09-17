@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 
 import { Container, Sidebar, MainContent, Section, SidebarLink, SocialLinks, ExperienceSection } from './styles';
 
