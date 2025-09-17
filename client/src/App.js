@@ -43,6 +43,7 @@ const Experience = () => (
           <span>Kotlin</span>
           <span>Swift</span>
           <span>React.js</span>
+          <span>React Native</span>
           <span>SwiftUI</span>
           <span>TypeScript</span>
           <span>Node.js</span>
@@ -78,6 +79,7 @@ const Experience = () => (
           <span>Kotlin</span>
           <span>Swift</span>
           <span>React.js</span>
+          <span>React Native</span>
           <span>SwiftUI</span>
           <span>TypeScript</span>
           <span>Node.js</span>
