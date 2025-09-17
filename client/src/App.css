@@ -56,10 +56,11 @@ section {
 
 /* Ensure skill tags are green with hover effects */
 .experience-skills span {
-  background-color: rgba(100, 255, 218, 0.1) !important;
+  background-color: transparent !important;
   color: #64ffda !important;
   font-size: 0.875rem !important;
   padding: 0.25rem 0.75rem !important;
+  border: 1px solid #64ffda !important;
   border-radius: 5px !important;
   transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
   display: inline-block !important;
@@ -69,6 +70,6 @@ section {
 }
 
 .experience-skills span:hover {
-  background-color: rgba(100, 255, 218, 0.25) !important;
+  background-color: rgba(100, 255, 218, 0.1) !important;
   box-shadow: 0 4px 8px rgba(100, 255, 218, 0.3) !important;
 }
