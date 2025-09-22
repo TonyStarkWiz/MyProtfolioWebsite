@@ -34,13 +34,11 @@ discovery, real-time partner matching, premium subscriptions. Built from zero us
 SwiftUI, and React.js with Firebase backend. Delivered 50% conversion improvement, 65% cost
 reduction, 40% faster matching through intelligent algorithms.
         </p>
-        <p>
-          Architected complete DanceLink ecosystem across Android (Kotlin/Compose), iOS (SwiftUI), and
+        <ul>
+          <li>Architected complete DanceLink ecosystem across Android (Kotlin/Compose), iOS (SwiftUI), and
 Web (React.js) with Firebase backend—implementing AI-powered event discovery, real-time
 partner matching, premium subscription billing, and global location services supporting 80+
-countries.
-        </p>
-        <ul>
+countries.</li>
           <li>Designed AI agent-powered event discovery to solve industry fragmentation (inconsistent APIs,
 mislabeled metadata, missing dance keywords), ensuring users only see accurate and relevant
 dance events worldwide.</li>
