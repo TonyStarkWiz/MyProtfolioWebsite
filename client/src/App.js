@@ -78,7 +78,7 @@ improvement and 70% API call reduction.</li>
     <div className="experience-item">
       <div className="timeline">05/2023 to Current</div>
       <div className="details">
-        <h3>Lead Software Engineer | Topmate.io – Port St. Lucie, FL</h3>
+        <h3>Lead Software Engineer | Topmate.io</h3>
         <p>
           Led cross-platform BLE fitness ecosystem (Android, iOS, Web) with AWS IoT Core + Kinesis streaming and AI agent coaching. Improved latency (-25%), battery (-25%), and ops efficiency (+30%), boosting engagement and scaling to thousands of users in real time.
         </p>
@@ -301,7 +301,7 @@ const App = () => (
     <Sidebar>
       <div>
         <h1>Anthony Espinoza</h1>
-        <h2>Senior Software Engineer</h2>
+        <h2>Lead Software Engineer</h2>
         <p>Mobile & Web Development Expert | AI & Quantum Computing Enthusiast</p>
         <SidebarLink href="#about">About</SidebarLink>
         <SidebarLink href="#experience">Professional Experience</SidebarLink>
