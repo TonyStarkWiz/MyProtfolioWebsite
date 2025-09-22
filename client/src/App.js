@@ -29,16 +29,31 @@ const Experience = () => (
           </a>
         </h3>
         <p>
-          I founded and engineered DanceLink, a comprehensive dance ecosystem with AI-powered event discovery, real-time partner matching, and premium subscriptions. Delivered the full platform using Kotlin/Compose, SwiftUI, React Native, and React.js—chosen to optimize native performance while enabling rapid cross-platform and web delivery.
+          Founded and engineered DanceLink—comprehensive dance ecosystem with AI-powered event
+discovery, real-time partner matching, premium subscriptions. Built from zero using Kotlin/Compose,
+SwiftUI, and React.js with Firebase backend. Delivered 50% conversion improvement, 65% cost
+reduction, 40% faster matching through intelligent algorithms.
         </p>
         <p>
-          I built and maintained the entire codebase for Android, iOS, and web apps on a Firebase backend, enabling users to discover events, find compatible partners, and access premium features. I designed and implemented an AI-driven event discovery engine that solved fragmentation across inconsistent APIs, mislabeled metadata, and missing keywords, ensuring dancers only saw accurate and relevant events worldwide.
+          Architected complete DanceLink ecosystem across Android (Kotlin/Compose), iOS (SwiftUI), and
+Web (React.js) with Firebase backend—implementing AI-powered event discovery, real-time
+partner matching, premium subscription billing, and global location services supporting 80+
+countries.
         </p>
         <ul>
-          <li>I developed a comprehensive event discovery pipeline integrating Dance Events API, Eventbrite API, and Google Custom Search with real-time caching and intelligent fallback systems—scaling the service across 5 continents with smart postal code validation.</li>
-          <li>I engineered an advanced partner-matching system with bilateral algorithms, compatibility scoring, and automatic chat creation. This reduced matching time by 40% and increased engagement by 60%, supported by real-time push notifications and chat built with Firebase.</li>
-          <li>I implemented enterprise-grade features including real-time chat with typing indicators, video upload/compression with Media3, a glassmorphism UI in Material 3, international postal code support, and robust security with Firebase App Check. These enhancements delivered a 45% performance boost and 70% reduction in API calls.</li>
-          <li>My efforts unified Android, iOS, and web delivery into a single ecosystem that drove measurable impact: 50% higher conversion, 65% cost reduction, and 40% faster matching. DanceLink demonstrates how thoughtful technology choices across multiple frameworks can deliver a seamless global experience and strong business outcomes.</li>
+          <li>Designed AI agent-powered event discovery to solve industry fragmentation (inconsistent APIs,
+mislabeled metadata, missing dance keywords), ensuring users only see accurate and relevant
+dance events worldwide.</li>
+          <li>Built comprehensive event discovery platform integrating Dance Events API, Eventbrite API, and
+Google Custom Search with real-time caching and intelligent fallback systems—enabling discovery
+across 5 continents with smart postal code validation.</li>
+          <li>Developed advanced partner matching system with bilateral algorithms, real-time notifications,
+event-based compatibility scoring, and automatic chat creation—reducing matching time by 40%
+and increasing engagement by 60%.</li>
+          <li>Implemented enterprise-grade features including real-time chat with typing indicators, video
+upload/compression using Media3, glassmorphism UI with Material 3, international postal code
+support, and comprehensive security with Firebase App Check—delivering 45% performance
+improvement and 70% API call reduction.</li>
         </ul>
         
         <div className="experience-skills">
